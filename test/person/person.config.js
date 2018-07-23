@@ -8,7 +8,9 @@
             return SUBJECTKEY_PREFIX + "people/person/" + input._id;
         },
         "type.object.name": ".name",
-        "type.object.description": ".about",
+        "type.object.description": function(input) {
+            return input.about.replace('\r', '').replace('\n', '');
+        },
         "people.person.address": ".address",
         "people.person.gender": ".gender",
         "people.person.email": ".email",
