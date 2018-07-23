@@ -4,7 +4,7 @@
   "description": "Transform any json file to json-ld compatible json.",
   "main": "index.js",
   "scripts": {
-    "test": "node .\\test\\person.js"
+    "test": "mocha .\\test\\person.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/krinde/json-ld-transform#readme",
   "dependencies": {
+    "chai": "^4.1.2",
     "eval": "^0.1.2",
     "jsonld": "^1.0.2",
     "jspath": "^0.4.0",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "mocha": "^5.2.0"
   }
 }
