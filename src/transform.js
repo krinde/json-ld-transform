@@ -1,5 +1,6 @@
 const engine = require('./transform-engine');
 const jsonld = require('jsonld');
+const converter = require('./schema-converter');
 
 function evalConfigJs(js) {
     var obj = eval(js);
@@ -7,8 +8,13 @@ function evalConfigJs(js) {
 }
 
 function run(input, configObj, inputContext, schemaContext) {
-    var doc = engine.transform(configObj, input, inputContext);
-    if(schemaContext) doc["@context"] = schemaContext;
+    let doc = {
+        "@context": schemaContext
+    };
+    let output = engine.transform(configObj, input, inputContext);
+    for(let prop in output) {
+        doc[prop] = output[prop];
+    }
     return doc;
 }
 
@@ -18,5 +24,6 @@ async function toRDF(doc) {
 
 module.exports = {
     evalConfigJs: evalConfigJs,
-    run: run
+    run: run,
+    convertSchema: converter.convert
 }

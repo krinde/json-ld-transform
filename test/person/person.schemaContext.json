@@ -1,0 +1,39 @@
+{
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "type.object.type": {
+        "@id": "http://knowledge.example.com/example/type.object.type",
+        "@type": "xsd:uri"
+    },
+    "type.object.name": {
+        "@id": "http://knowledge.example.com/example/type.object.name",
+        "@type": "xsd:string"
+    },
+    "type.object.description": {
+        "@id": "http://knowledge.example.com/example/type.object.description",
+        "@type": "xsd:string"
+    },
+    "type.object.brief_description": {
+        "@id": "http://knowledge.example.com/example/type.object.brief_description",
+        "@type": "xsd:string"
+    },
+    "people.person.address": {
+        "@id": "http://knowledge.example.com/example/people.person.address",
+        "@type": "xsd:string"
+    },
+    "people.person.gender": {
+        "@id": "http://knowledge.example.com/example/people.person.gender",
+        "@type": "xsd:string"
+    },
+    "people.person.email": {
+        "@id": "http://knowledge.example.com/example/people.person.email",
+        "@type": "xsd:string"
+    },
+    "people.person.phone": {
+        "@id": "http://knowledge.example.com/example/people.person.phone",
+        "@type": "xsd:string"
+    },
+    "people.person.friend": {
+        "@id": "http://knowledge.example.com/example/people.person.friend",
+        "@type": "http://knowledge.example.com/example/people.person"
+    }
+}

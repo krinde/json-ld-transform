@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "type.object.type": {
+            "@id": "http://knowledge.example.com/example/type.object.type",
+            "@type": "xsd:uri"
+        },
+        "type.object.name": {
+            "@id": "http://knowledge.example.com/example/type.object.name",
+            "@type": "xsd:string"
+        },
+        "type.object.description": {
+            "@id": "http://knowledge.example.com/example/type.object.description",
+            "@type": "xsd:string"
+        },
+        "type.object.brief_description": {
+            "@id": "http://knowledge.example.com/example/type.object.brief_description",
+            "@type": "xsd:string"
+        },
+        "people.person.address": {
+            "@id": "http://knowledge.example.com/example/people.person.address",
+            "@type": "xsd:string"
+        },
+        "people.person.gender": {
+            "@id": "http://knowledge.example.com/example/people.person.gender",
+            "@type": "xsd:string"
+        },
+        "people.person.email": {
+            "@id": "http://knowledge.example.com/example/people.person.email",
+            "@type": "xsd:string"
+        },
+        "people.person.phone": {
+            "@id": "http://knowledge.example.com/example/people.person.phone",
+            "@type": "xsd:string"
+        },
+        "people.person.friend": {
+            "@id": "http://knowledge.example.com/example/people.person.friend",
+            "@type": "http://knowledge.example.com/example/people.person"
+        }
+    },
+    "type.object.name": "Booth Garner",
+    "type.object.description": "Ad aute ipsum quis cillum. Irure qui officia ea est ut aliquip ut enim eu sit duis. Est esse amet dolore velit excepteur.\r\n",
+    "people.person.address": "712 Bridgewater Street, Harviell, New Mexico, 6425",
+    "people.person.gender": "male",
+    "people.person.email": "boothgarner@daycore.com",
+    "people.person.phone": "+1 (817) 421-3062",
+    "people.person.friend": [
+        {
+            "type.object.name": "Johanna Fitzpatrick",
+            "@id": "http://knowledge.example.com/people/person/Johanna%20Fitzpatrick"
+        },
+        {
+            "type.object.name": "Baldwin Kennedy",
+            "@id": "http://knowledge.example.com/people/person/Baldwin%20Kennedy"
+        },
+        {
+            "type.object.name": "Mills Chan",
+            "@id": "http://knowledge.example.com/people/person/Mills%20Chan"
+        }
+    ],
+    "@id": "http://knowledge.example.com/people/person/5b51a803c3665e14977c4a20"
+}

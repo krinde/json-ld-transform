@@ -1,14 +1,14 @@
 "use strict";
 
 (function() {
-    const SUBJECTKEY_PREFIX = "http://example.com/";
+    const SUBJECTKEY_PREFIX = "http://knowledge.example.com/";
 
     return {
         "@id": function(input) {
             return SUBJECTKEY_PREFIX + "people/person/" + input._id;
         },
         "type.object.name": ".name",
-        "people.person.description": ".about",
+        "type.object.description": ".about",
         "people.person.address": ".address",
         "people.person.gender": ".gender",
         "people.person.email": ".email",

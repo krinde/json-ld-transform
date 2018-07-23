@@ -1,0 +1,54 @@
+[
+    {
+        "namespace": "example",
+        "name": "type.object",
+        "fields": [
+            {
+                "name": "type",
+                "type": "uri"
+            },
+            {
+                "name": "name",
+                "type": "string",
+                "tags": [
+                    "searchable"
+                ]
+            },
+            {
+                "name": "description",
+                "type": "string"
+            },
+            {
+                "name": "brief_description",
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "namespace": "example",
+        "name": "people.person",
+        "parent": "type.object",
+        "fields": [
+            {
+                "name": "address",
+                "type": "string"
+            },
+            {
+                "name": "gender",
+                "type": "string"
+            },
+            {
+                "name": "email",
+                "type": "string"
+            },
+            {
+                "name": "phone",
+                "type": "string"
+            },
+            {
+                "name": "friend",
+                "type": "people.person"
+            }
+        ]
+    }
+]
