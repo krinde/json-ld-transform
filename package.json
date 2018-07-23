@@ -4,7 +4,7 @@
   "description": "Transform any json file to json-ld compatible json.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha .\\test\\person.js"
+    "test": "mocha .\\test\\*.test.js"
   },
   "repository": {
     "type": "git",
