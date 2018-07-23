@@ -1,0 +1,23 @@
+{
+    "type.object.name": "Booth Garner",
+    "people.person.description": "Ad aute ipsum quis cillum. Irure qui officia ea est ut aliquip ut enim eu sit duis. Est esse amet dolore velit excepteur.\r\n",
+    "people.person.address": "712 Bridgewater Street, Harviell, New Mexico, 6425",
+    "people.person.gender": "male",
+    "people.person.email": "boothgarner@daycore.com",
+    "people.person.phone": "+1 (817) 421-3062",
+    "people.person.friend": [
+        {
+            "type.object.name": "Johanna Fitzpatrick",
+            "@id": "http://example.com/people/person/Johanna%20Fitzpatrick"
+        },
+        {
+            "type.object.name": "Baldwin Kennedy",
+            "@id": "http://example.com/people/person/Baldwin%20Kennedy"
+        },
+        {
+            "type.object.name": "Mills Chan",
+            "@id": "http://example.com/people/person/Mills%20Chan"
+        }
+    ],
+    "@id": "http://example.com/people/person/5b51a803c3665e14977c4a20"
+}

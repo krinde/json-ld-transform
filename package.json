@@ -1,0 +1,31 @@
+{
+  "name": "json-ld-transform",
+  "version": "0.0.1",
+  "description": "Transform any json file to json-ld compatible json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .\\test\\person.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krinde/json-ld-transform.git"
+  },
+  "keywords": [
+    "json-ld",
+    "transform",
+    "graph",
+    "rdf"
+  ],
+  "author": "krinde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krinde/json-ld-transform/issues"
+  },
+  "homepage": "https://github.com/krinde/json-ld-transform#readme",
+  "dependencies": {
+    "eval": "^0.1.2",
+    "jsonld": "^1.0.2",
+    "jspath": "^0.4.0",
+    "minimist": "^1.2.0"
+  }
+}

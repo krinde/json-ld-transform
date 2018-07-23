@@ -1,0 +1,45 @@
+{
+    "_id": "5b51a803c3665e14977c4a20",
+    "index": 0,
+    "guid": "77c81fb5-13b5-4fb9-a8cc-7c4d8d6c2a41",
+    "isActive": true,
+    "balance": "$3,915.15",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "green",
+    "name": "Booth Garner",
+    "gender": "male",
+    "company": "DAYCORE",
+    "email": "boothgarner@daycore.com",
+    "phone": "+1 (817) 421-3062",
+    "address": "712 Bridgewater Street, Harviell, New Mexico, 6425",
+    "about": "Ad aute ipsum quis cillum. Irure qui officia ea est ut aliquip ut enim eu sit duis. Est esse amet dolore velit excepteur.\r\n",
+    "registered": "2016-03-06T03:23:57 -08:00",
+    "latitude": 9.739664,
+    "longitude": 48.655424,
+    "tags": [
+      "laboris",
+      "sit",
+      "minim",
+      "proident",
+      "esse",
+      "pariatur",
+      "commodo"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Johanna Fitzpatrick"
+      },
+      {
+        "id": 1,
+        "name": "Baldwin Kennedy"
+      },
+      {
+        "id": 2,
+        "name": "Mills Chan"
+      }
+    ],
+    "greeting": "Hello, Booth Garner! You have 6 unread messages.",
+    "favoriteFruit": "apple"
+}
