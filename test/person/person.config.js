@@ -21,6 +21,9 @@
             "@id": function(input, context, output) {
                 return SUBJECTKEY_PREFIX + "people/person/" + encodeURIComponent(output["type.object.name"]);
             }
+        },
+        "@type": {
+            "$$value": ["people.person"]
         }
     }
 })();

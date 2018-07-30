@@ -47,16 +47,28 @@
     "people.person.friend": [
         {
             "type.object.name": "Johanna Fitzpatrick",
-            "@id": "http://knowledge.example.com/people/person/Johanna%20Fitzpatrick"
+            "@id": "http://knowledge.example.com/people/person/Johanna%20Fitzpatrick",
+            "@type": [
+                "http://knowledge.example.com/example/people.person"
+            ]        
         },
         {
             "type.object.name": "Baldwin Kennedy",
-            "@id": "http://knowledge.example.com/people/person/Baldwin%20Kennedy"
+            "@id": "http://knowledge.example.com/people/person/Baldwin%20Kennedy",
+            "@type": [
+                "http://knowledge.example.com/example/people.person"
+            ]        
         },
         {
             "type.object.name": "Mills Chan",
-            "@id": "http://knowledge.example.com/people/person/Mills%20Chan"
+            "@id": "http://knowledge.example.com/people/person/Mills%20Chan",
+            "@type": [
+                "http://knowledge.example.com/example/people.person"
+            ]        
         }
     ],
-    "@id": "http://knowledge.example.com/people/person/5b51a803c3665e14977c4a20"
+    "@id": "http://knowledge.example.com/people/person/5b51a803c3665e14977c4a20",
+    "@type": [
+        "people.person"
+    ]
 }
